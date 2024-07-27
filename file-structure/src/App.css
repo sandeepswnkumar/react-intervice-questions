@@ -1,0 +1,45 @@
+#root{
+  width: 300px;
+}
+.folder_items{
+  padding-left: 20px;
+  margin: 5px 0;
+}
+.folder{
+  width: 100%;
+  padding: 5px 3px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+.folder span{
+  display: flex;
+}
+.file{
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+.foler-action{
+  display: flex;
+  flex-direction: row;
+}
+
+.foler-action button{
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.folder-edit{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: auto;
+}
+
+.file span {
+  display: flex;
+}
